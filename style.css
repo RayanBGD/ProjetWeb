@@ -1,0 +1,110 @@
+header{
+    /*position: fixed;
+    top: 0%;
+    left: 0%;*/
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+
+body{
+    background: linear-gradient(60deg, rgb(238, 227, 237), rgb(132, 11, 143));
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.logo span{
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: cornflowerblue;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.Texte{
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    background-color: thistle;
+}
+
+.Destination{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.groupe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.membre {
+    font-family: 'Sora', sans-serif;
+}
+
+.image_Viet{
+    margin-left: 35%;
+}
+
+.Viet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 5%;
+    color: azure;
+}
+.image_Sah{
+    margin-left: 35%;
+    height: 300px;
+    width: 500px;
+}
+
+.Algerie{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 5%;
+    color: azure;
+}
+
+.image_Taz{
+    margin-left: 35%;
+    width: 53%;
+    height: 300px;
+}
+
+.Taz{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 5%;
+    color: azure;    
+}
