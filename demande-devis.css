@@ -1,0 +1,23 @@
+.formulaire div {
+    /* display: flex;
+    justify-content: center; */
+    line-height: 150%;
+}
+
+/* body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local, scroll;
+    background-image: url("chute.jpg");
+} */
+
+.formulaire div input {
+    position: absolute;
+    left: 50%;
+}
+
+.formulaire {
+    /* width: 25%; */
+    display: flex;
+    justify-content: center;
+}
