@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang=fr>
     <head>
+        <link rel="stylesheet" href="demande-devis.css">
         <title>Demande de devis</title>
     </head>
     <body>
         <div class="intro">
-            <h1>Demander un devis<h1>
+            <h1>Demander un devis</h1>
             <p>Vous souhaitez voyager et découvrir de tout nouveaux horizons? Nous pouvons vous accompagner à la préparation, l'organisation et la mise en place de votre projet.
                  Après nous avoir remis la demande de devis nous vous recontacterons sous 3 jours ouvrés avec une proposition de parcours. Cette première proposition n'est pas finale,
                   vous pouvez nous notifier des modifications voulues et nous ferons de notre mieux pour vous accompagner.  </p>
@@ -39,6 +40,43 @@
                 <div>
                     <label><b>Code Postal</b></label>
                     <input type="text" placeholder="Code Postal">
+                </div>
+                <h2>Details du voyage</h2>
+                <div>
+                    <label><b>Destination</b></label>
+                    <select>
+                        <option selected disabled>Veuillez choisir...</option>
+                        <optgroup label='Afrique'>
+                            <option>Algérie</option>
+                            <option>Madagascar</option>
+                            <option>Maroc</option>
+                        </optgroup>
+                        <optgroup label='Amérique du Nord'>
+                            <option>Canada</option>
+                            <option>États-Unis</option>
+                            <option>Méxique</option>
+                        </optgroup>
+                        <optgroup label='Amérique du Sud'>
+                            <option>Bolivie</option>
+                            <option>Pérou</option>
+                            <option>Chili</option>
+                        </optgroup>
+                        <optgroup label='Asie'>
+                            <option>Chine</option>
+                            <option>Japon</option>
+                            <option>Sri Lanka</option>
+                        </optgroup>
+                        <optgroup label='Europe'>
+                            <option>Irlande</option>
+                            <option>Italie</option>
+                            <option>Ukraine</option>
+                        </optgroup>
+                        <optgroup label='Océanie'>
+                            <option>Australie</option>
+                            <option>Nouvelle-Zélande</option>
+                            <option>Fidji</option>
+                        </optgroup>
+                    </select>
                 </div>
         </div>
     </body>
