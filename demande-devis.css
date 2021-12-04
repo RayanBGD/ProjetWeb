@@ -4,12 +4,9 @@
     line-height: 150%;
 }
 
-/* body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: local, scroll;
-    background-image: url("chute.jpg");
-} */
+.formulaire div label {
+    cursor: pointer;
+}
 
 .formulaire div input {
     position: absolute;
