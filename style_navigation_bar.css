@@ -113,3 +113,59 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
 
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.bandeau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5d4954;
+    color: ivory;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    min-height: 20vh;
+    text-align: center;
+}
+
+.intro {
+    /* filter: grayscale(30%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("paysage.JPG");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position-y: 40%;
+    /* padding-top: 5%; */
+    min-height: 50vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 300%;
+    color: ivory;
+    /* color: rgb(255, 140, 0); */
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+/* .intro:hover {
+    background: grey;
+} */
+
+/* .photo {
+    z-index: -1;
+    position: relative;
+} */
+
+.text_intro{
+    margin-top: 2%;
+    vertical-align: middle;
+}
