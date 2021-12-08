@@ -1,115 +1,34 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style_navigation_bar.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap" rel="stylesheet">
-    <title>Projet Web</title>
-</head>
+    <title>NAVIGATION</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h4>VoyagEfrei</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="Delete_index.html">Projects</a></li>
+        <li><a href="demande-devis.html">Devis</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
 
-<body>
-    <header>
-        <a href="#" class="logo"><span>EFREI</span> Discovery</a>
-        <ul class="navbar">
-            <li>
-                <a href="#" class="btn">Accueil</a>
-                <a href="index_navigation_bar.html" class="btn_ap">A propos</a>
-                <a href="demande-devis.html" calss="btn_dev">Devis en ligne</a>
-            </li>
-        </ul>
-    </header>
-    
-    <p>Voici l'équipe qui vous aidera à construire votre projet de voyage !</p>
-    <div class="groupe">
-        <div class="membre">
-            <h2>Rayan Beghdaoui</h2>
-        </div>
-        <div class="membre">
-            <h2>Doria Deramchi</h2>
-        </div>
-        <div class="membre">
-            <h2>Basile Maillé</h2>
-        </div>
-    </div>
-    <section>
-        <div class="Destination">
-            <h2>Nos destinations</h2>
-            <br>
-            <section class="form">
-                <label>Afrique</label>
-            <select>
-                <option>Algérie</option>
-                <option>Kenya</option>
-                <option>Madagascar</option>
-                <option>Tunisie</option>
-            </select>
-            <label>Asie</label>
-            <select>
-                <option>Vietnam</option>
-                <option>Japon</option>
-                <option>Mongolie</option>
-                <option>Inde</option>
-            </select>
-            <label>Océanie</label>
-            <select>
-                <option>Malaisie</option>
-                <option>Bali</option>
-                <option>Australie</option>
-                <option>Nouvelle-Zélande</option>
-            </select>
-            </section>
-        </div>
-    </section>
-
-
-    <section id="Texte">
-        <div class="Texte">
-            <p>
-                Nous sommes un groupe d'étudiants de l'EFREI Paris et nous souhaitons transmettre notre passion du
-                voyage.
-                <br>
-                De par nos experiences et notres vécu, nous vous donnerons des conseils afin de préparer au mieux votre
-                voyage à petit prix, et ainsi découvrir de nouvelles cultures.
-            </p>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h2>Best-Of</h2>
-            <p>
-                Découvrez nos incontournables !
-            </p>
-            <div class="Gen">
-                <div class="Viet">
-                    <h4>Le Vietnam</h4>
-                    <p>Partez à l'aventure dans la forêt luxuriante du parc national de Ba Vi, pour un séjour hors du commun.</p>
-                </div>
-                <div class="image_Viet">
-                    <img src="./phu-quoc.png" alt="image_Viet">
-                </div>
-                <div class="Algerie">
-                    <h4>Le Désert algérien</h4>
-                    <p>Traverser les dunes inombrables du gigantesque Sahara.</p>
-                </div>
-                <div>
-                    <img src="./Sahara.png" class="image_Sah" alt="image_Sah">
-                </div>
-                <div class="Taz">
-                    <h4>Tasmanie</h4>
-                    <p>En immersion dans la faune locale, transportez-vous dans un environnement unique !</p>
-                </div>
-                <div>
-                    <img src="./Taz.png" class="image_Taz" alt="image_Taz">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-</body>
-
+    <script src="app_navigation_bar.js"></script>
+  </body>
 </html>
