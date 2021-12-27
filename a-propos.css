@@ -1,0 +1,22 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.equipe {
+    font-weight: bold;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-evenly;
+    min-height: 20vh;
+}
+
+.groupe {
+    display: flex;
+    justify-content: space-evenly;
+    /* min-height: 10vh; */
+}
+
+/* .membre {
+    text-align: center;
+} */
