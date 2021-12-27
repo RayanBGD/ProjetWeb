@@ -1,0 +1,73 @@
+h1 {
+	display:inline-block;
+	align-items: center;
+	cursor: pointer;
+	user-select: none;
+	color : whitesmoke;
+	text-align : center;
+	transition-duration: 0.5s;
+	transition-delay: 0.1s;
+	/* font-family: 'Staatliches', cursive; */
+    font-family: 'Poppins', sans-serif;
+	font-size: 10em;
+	z-index: 2;
+}
+
+.destinations {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.destinations div {
+    min-height: 30vh;
+    transition-duration: 0.5s;
+	transition-delay: 0.1s;
+}
+
+.destinations div:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+}
+
+.destinations div:not(:hover) {
+    transition-duration: 0.5s;
+	transition-delay: 0.1s;
+}
+
+.Europe {
+    background-image: url(gorges.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position-y: 50%;
+}
+
+.Afrique {
+    background-image: url(Sahara.png);
+    background-size: cover;
+    text-align: center;
+    background-position-y: 50%;
+}
+
+.Asie {
+    background-image: url(phu-quoc.png);
+    background-size: cover;
+    text-align: center;
+    background-position-y: 60%;
+}
+
+.Amerique {
+    background-image: url(paysage.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position-y: 50%;
+}
+
+.Oceanie {
+    background-image: url(Taz.png);
+    background-size: cover;
+    text-align: center;
+    background-position-y: 40%;
+
+}

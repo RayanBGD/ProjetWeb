@@ -184,6 +184,7 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
     color: wheat;
     /* background-color: dimgrey; */
@@ -191,7 +192,7 @@ body {
 }
 
 .gorgesduverdon p {
-
+    width: 70%;
     text-align: center;
 }
 
@@ -215,14 +216,27 @@ body {
     min-height: 40vh;
 }
 
-.wra div {
+/* .wra div {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-}
-
+} */
+/* 
 .wra div img {
     width: 33vh;
+} */
+
+.carte {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 33vh;
+}
+
+
+.carte img {
+    width: 33vh;
+    height: auto;
 }
 
 #steps h4{
@@ -234,7 +248,7 @@ body {
     margin-bottom: 20px;
 }
 
-#img1{
+/* #img1{
     background: url('planification.png') no-repeat top center;
     background-size: contain;
 }
@@ -247,7 +261,7 @@ body {
 #img3{
     background: url('personnalisation.png') no-repeat top center;
     background-size: contain;
-}
+} */
 
 /*Possible*/
 #possible{
