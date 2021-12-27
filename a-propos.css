@@ -2,6 +2,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: url("antilope.JPG");
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    background-position-y: 70%;
+    background-size: cover;
+}
+
 .equipe {
     font-weight: bold;
     display: flex;
@@ -17,6 +25,14 @@
     /* min-height: 10vh; */
 }
 
-/* .membre {
+.texte {
     text-align: center;
-} */
+    min-height: 5vh; 
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.texte p {
+    width: 60%;
+}
