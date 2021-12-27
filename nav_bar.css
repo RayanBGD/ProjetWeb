@@ -26,7 +26,11 @@ nav{
     letter-spacing: 5px;
     font-size: 20px;
     margin-left: -15%;
-    
+}
+
+.logo:hover {
+    cursor: pointer;
+    user-select: none;
 }
 
 .nav-links{

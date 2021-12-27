@@ -22,3 +22,9 @@ const navSlide = () => {
 };
 
 navSlide();
+
+function navLOGO(){
+  window.location= "index.html";
+}
+
+document.querySelector(".logo").addEventListener('click', navLOGO);
