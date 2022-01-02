@@ -138,6 +138,6 @@ nav{
     text-align: center;
 }
 
-.footer a:visited {
-    color: white;
+.footer a {
+    text-decoration: none;
 }

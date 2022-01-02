@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
-    <link rel="stylesheet" href="style_navigation_bar.css" />
+    <link rel="stylesheet" href="./styles/style_navigation_bar.css" />
+    <link rel="stylesheet" href="nav_bar.css" />
     <link rel="SHORTCUT ICON" HREF="favicon.ico"/>
     <title>VoyagEfrei</title>
   </head>
@@ -16,11 +17,11 @@
         <h4>VoyagEfrei</h4>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="a-propos.html">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="Delete_index.html">Projects</a></li>
-        <li><a href="demande-devis.html">Devis</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="./pages/a-propos.html">À Propos</a></li>
+        <li><a href="./pages/destinations.html">Destinations</a></li>
+        <li><a href="./pages/Delete_index.html">Avis</a></li>
+        <li><a href="./pages/demande-devis.html">Devis</a></li>
       </ul>
       <div class="burger">
         <div class="line1"></div>
@@ -39,7 +40,7 @@
       <p>Nous sommes un groupe d'étudiants de l'EFREI Paris et nous souhaitons transmettre notre passion du
         voyage.
         <br>
-        De par nos experiences et notres vécu, nous vous donnerons des conseils afin de préparer au mieux votre
+        De par nos experiences et notre vécu, nous vous donnerons des conseils afin de préparer au mieux votre
         voyage à petit prix, et ainsi découvrir de nouvelles cultures.</p>
     </div>
     <div class=gorgesduverdon>
@@ -51,17 +52,17 @@
     <section id="steps">
       <div class="wra">
           <div class="carte">
-            <div class="img1"><img src="clipboard.gif"></div>
+            <div class="img1"><img src="clipboard.gif" alt="Animation d'une liste de tache"></div>
             <h4>Planification</h4>
             <p>Tout est déjà prévu, il ne vous reste plus qu'à embarquer !</p>
           </div>
           <div class="carte">
-            <div class="img2"><img src="clock.gif"></div>
+            <div class="img2"><img src="clock.gif" alt="Animation d'une horloge"></div>
             <h4>Expertise</h4>
             <p>Bénéficiez de l'avis d'experts, pour un séjour de qualité.</p>
           </div>
           <div class="carte">
-            <div class="img3"><img src="compass.gif"></div>
+            <div class="img3"><img src="compass.gif" alt="Animation d'une boussole"></div>
             <h4>Personnalisation</h4>
             <p>Notre large choix de destination vous permet de vivre un séjour unique.</p>
           </div>
@@ -69,7 +70,7 @@
       </div>
     </section>
 
-    <section id="possible">
+    <!-- <section id="possible">
       <div class="wrapper">
         <article id="possible-1">
           <div class="overlay">
@@ -84,24 +85,64 @@
           </div>
         </article>
       </div>
-    </section>
+    </section> -->
+
+    <div class= Planification>
+      <div class="img4"><img src="./images/Passeport.png" alt="Passeport"></div>
+      <div class="texte"><h4>Planification</h4>
+        <p>L'organisation d'un voyage suscite de nombreuses questions : Où aller ? Quand partir ? Quel budget ? 
+          Combien de temps ? Quel itinéraire choisir ? Notre équipe d'experts a toutes les réponses. 
+          Nous vous simplifions la vie en vous aidant à planifier votre voyage en seulement quelques clics.
+          Gagnez du temps dans votre préparation pour en profiter au maximum !
+        </p> 
+      </div>
+    </div>
+
+    <div class="Expertise">
+        <!-- <div class='img5'><img src="./images/Foret.png" alt="Foret"></div> -->
+        <div class="bloc">
+          <h1>Notre expertise</h1>
+          <p>Depuis plus de 10 ans, nous vous accompagnons dans la réalisation de vos plus beaux voyages. 
+            Que vous rêviez de découvrir l’Europe avec l’un de nos autocars Grand-Tourisme, 
+            d’un circuit ou d’un séjour à l’autre bout du monde, d’une croisière d’exception, d’une randonnée en montagne,  ou d’une escapade d’un jour… Vous trouverez forcément votre bonheur chez VoyagEfrei.
+
+            Chaque année, nos 3 experts font voyager plus de 70 000 personnes à travers le monde. Nos équipes sont constamment formées et participent à des voyages découverte afin de toujours mieux vous conseiller dans le choix de votre destination.
+            
+            Confiez nous vos voyages ! Que ce soit en autocar, en avion, en bateau… En couple, en famille, entre amis ou en groupe nous sommes là pour vous accompagner dans la réalisation de vos plus beaux projets de voyages.
+          </p>
+        </div>
+    </div>
+
+    <div class="Personnalisation">
+      <!-- <div class='img6'><img src="./images/Foret.png" alt="Foret"></div> -->
+      <div class="bloc">
+        <h1>Notre expertise</h1>
+        <p>Depuis plus de 10 ans, nous vous accompagnons dans la réalisation de vos plus beaux voyages. 
+        Que vous rêviez de découvrir l’Europe avec l’un de nos autocars Grand-Tourisme, 
+        d’un circuit ou d’un séjour à l’autre bout du monde, d’une croisière d’exception, d’une randonnée en montagne,  ou d’une escapade d’un jour… Vous trouverez forcément votre bonheur chez VoyagEfrei.
+
+        Chaque année, nos 3 experts font voyager plus de 70 000 personnes à travers le monde. Nos équipes sont constamment formées et participent à des voyages découverte afin de toujours mieux vous conseiller dans le choix de votre destination.
+        
+        Confiez nous vos voyages ! Que ce soit en autocar, en avion, en bateau… En couple, en famille, entre amis ou en groupe nous sommes là pour vous accompagner dans la réalisation de vos plus beaux projets de voyages.
+      </p></div>
+    </div>
 
     
 
     <div>
-      <img src="" id="fetch">
+      <img src="." alt="Image aléatoire de chat" id="fetch">
     </div>
     <footer>
       <div class="footer">
-        <div><a href="index.html">Home</a></div>
-        <div><a href="a-propos.html">About</a></div>
-        <div><a href="#">Work</a></div>
-        <div><a href="Delete_index.html">Projects</a></div>
-        <div><a href="demande-devis.html">Devis</a></div>
-      </ul>
+        <div><a href="index.html">Accueil</a></div>
+        <div><a href="./pages/a-propos.html">À Propos</a></div>
+        <div><a href="./pages/destinations.html">Destinations</a></div>
+        <div><a href="./pages/Delete_index.html">Avis</a></div>
+        <div><a href="./pages/demande-devis.html">Devis</a></div>
+      </div>
     </footer>
-    <script src="app_navigation_bar.js"></script>
-    <script src="chat.js"></script>
+    <script src="./scripts/app_navigation_bar.js"></script>
+    <script src="./scripts/chat.js"></script>
     <!-- <script type="module" src="request.js"></script> -->
   </body>
 </html>
