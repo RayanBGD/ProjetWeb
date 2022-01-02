@@ -92,7 +92,28 @@ body {
 }
 
 .texte {
-    order:-1;
+    /* flex-grow: 2; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texte p {
+    text-align: justify;
+}
+
+.texte h4 {
+	text-align: center;
+}
+
+.img4 {
+    width: 300%;
+}
+
+.img4 img{
+    width: 100%;
+    height: auto;
 }
 
 .Planification p {
@@ -130,10 +151,6 @@ body {
     visibility: hidden;
 } */
 
-/* .img4{
-    width: 100%;
-    height: auto;
-} */
 
 .Expertise p{
     /* z-index: 1;

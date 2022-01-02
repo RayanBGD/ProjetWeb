@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("./images/antilope.JPG");
+    background-image: url("../images/antilope.JPG");
     background-color: rgba(0,0,0,0.4);
     background-blend-mode: overlay;
     background-position-y: 70%;

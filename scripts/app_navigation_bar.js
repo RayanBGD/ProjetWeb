@@ -2,12 +2,14 @@ const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
+  // const navAct = document.querySelector(".nav-active");
+  // const burgToggle = document.querySelector(".toggle");
 
   //Toggle Nav
   burger.addEventListener('click', () => {
       //Toggle Nav
       nav.classList.toggle('nav-active');
-
+      
     //Animate Links
     navLinks.forEach((link, index) => {
       if (link.style.animation) {
@@ -19,12 +21,18 @@ const navSlide = () => {
     //Burger Animation
     burger.classList.toggle('toggle');
   });
+
+  document.addEventListener('scroll', () => {
+
+      nav.classList.toggle('.nav-links');
+      burger.classList.toggle('.toggle');
+  });
 };
 
 navSlide();
 
 function navLOGO(){
-  window.location= "index.html";
+  window.location= "https://basilems.github.io/ProjetWeb/";
 }
 
 document.querySelector(".logo").addEventListener('click', navLOGO);

@@ -1,12 +1,9 @@
 .titre{
-    margin-top: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-size: 125%;
+    background-image: url('../../images/monmuent.jpg');
 }
 
 .titre h2{
-    color: coral;
+    color: rgb(64, 117, 185);
 }
 
 .liste{
