@@ -39,9 +39,7 @@ function ajouter(){
     table.appendChild(nvVoyage);
 }
 
-function reset() {
-    const tbody = domcument.querySelector(".tableau table tbody");
-    while(tbody.firstChild){
-        tbody.removeChild(tbody.firstChild)
-    }
+function reinit() {
+    const tbody = document.querySelector(".tableau table tbody");
+    tbody.innerHTML= "";
 }
