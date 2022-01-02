@@ -18,9 +18,7 @@ body {
     min-height: 80vh;
 }
 
-.titre h1{
-    color: coral;
-}
+
 
 .liste{
     margin-left: 50px;
@@ -34,7 +32,7 @@ body {
 
 }
 
-.Carte p{
+/* .Carte p{
     opacity: 0%;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
@@ -43,7 +41,7 @@ body {
 
 .Carte:hover p{
     Opacity: 100%;
-}
+} */
 
 .Carte {
     text-align: center;

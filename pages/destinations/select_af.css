@@ -1,9 +1,15 @@
 .titre{
-    background-image: url(../../images/Sahara.png);
+    background-image: url(../../images/Afrique.png);
 } 
 
-.titre h2{
-    color: coral;
+.titre h1{
+    color: rgb(226, 226, 226);
+    font-family: 'Poppins', sans-serif; 
+}
+
+.titre p {
+    font-family: 'Poppins', sans-serif; 
+
 }
 
 .liste{

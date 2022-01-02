@@ -8,6 +8,7 @@ body {
     background-blend-mode: overlay;
     background-position-y: 70%;
     background-size: cover;
+    color: rgb(226,226,226);
 }
 
 .equipe {
