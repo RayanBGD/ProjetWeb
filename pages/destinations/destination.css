@@ -29,8 +29,24 @@ body {
     font-size: 125%;
 }  
 
-.pays{
-    margin-left: 50px;
+.Pays{
+    display: flex;
+
+}
+
+.Carte p{
+    opacity: 0%;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    animation-timing-function: ease-in-out;
+}
+
+.Carte:hover p{
+    Opacity: 100%;
+}
+
+.Carte {
+    text-align: center;
 }
 
 .land{
