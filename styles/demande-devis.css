@@ -56,4 +56,13 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border : solid 1px black;
 }
