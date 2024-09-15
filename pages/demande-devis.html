@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang=fr>
+    <head>
+        <meta charset='UTF-8'>
+        <link rel="stylesheet" href="../styles/demande-devis.css">
+        <link rel="stylesheet" href="../nav_bar.css" />
+        <link rel="stylesheet" href="../pages/destinations/destination.css"/>
+        <title>Demande de devis</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+              <h4>VoyagEfrei</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="demande-devis.html">Devis</a></li>
+            </ul>
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="titre">
+                <h1>Demander un devis</h1>
+            </div>
+            <div class=bandeau>
+                <p>Vous souhaitez voyager et découvrir de tout nouveaux horizons? Nous pouvons vous accompagner à la préparation, l'organisation et la mise en place de votre projet.
+                 Après nous avoir remis la demande de devis nous vous recontacterons sous 3 jours ouvrés avec une proposition de parcours. Cette première proposition n'est pas finale,
+                  vous pouvez nous notifier des modifications voulues et nous ferons de notre mieux pour vous accompagner.  </p>
+            </div>
+        </div>
+        <div class="formulaire">
+            <form id="myForm" name="devis">
+                <div>
+                    <label><b>Nom</b></label>
+                    <input type="text" name="nom" placeholder="Nom">
+                </div>
+                <div>
+                    <label><b>Prénom</b></label>
+                    <input type="text" name="prenom" placeholder="Prénom">
+                </div>
+                <div>
+                    <label><b>Adresse mail</b></label>
+                    <input type="email" name="mail" placeholder="example@voyage.com">
+                </div>
+                <div>
+                    <label><b>N° de telephone</b></label>
+                    <input type="tel" name="tel" placeholder="telephone">
+                </div>
+                <div>
+                    <label><b>Adresse</b></label>
+                    <input type="text" name="adresse" placeholder="Adresse">
+                </div>
+                <div>
+                    <label><b>Ville</b></label>
+                    <input type="text" name="ville" placeholder="Ville">
+                </div>
+                <div>
+                    <label><b>Code Postal</b></label>
+                    <input type="text" name="zipcode" placeholder="Code Postal">
+                </div>
+                <h2>Details du voyage</h2>
+                <div>
+                    <label><b>Destination</b></label>
+                    <select name="destination">
+                        <option selected disabled value="">Veuillez choisir...</option>
+                        <optgroup label='Afrique'>
+                            <option value="Algerie">Algérie</option>
+                            <option value="Madagascar">Madagascar</option>
+                            <option value="Maroc">Maroc</option>
+                        </optgroup>
+                        <optgroup label='Amérique du Nord'>
+                            <option value="Canada">Canada</option>
+                            <option value="USA">États-Unis</option>
+                            <option value="Mexique">Mexique</option>
+                        </optgroup>
+                        <optgroup label='Amérique du Sud'>
+                            <option value="Bolivie">Bolivie</option>
+                            <option value="Perou">Pérou</option>
+                            <option value="Chili">Chili</option>
+                        </optgroup>
+                        <optgroup label='Asie'>
+                            <option value="Chine">Chine</option>
+                            <option value="Japon">Japon</option>
+                            <option value="Sri_lanka">Sri Lanka</option>
+                        </optgroup>
+                        <optgroup label='Europe'>
+                            <option value="Irlande">Irlande</option>
+                            <option value="Italie">Italie</option>
+                            <option value="Ukraine">Ukraine</option>
+                        </optgroup>
+                        <optgroup label='Océanie'>
+                            <option value="Australie">Australie</option>
+                            <option value="Nouvelle_zelande">Nouvelle-Zélande</option>
+                            <option value="Fidji">Fidji</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div> 
+                    <button type="button" class="btn" onclick="ajouter()">Enregistrer passager</button>
+                    <button type="button" class="btn" onclick="reinit()">Reprendre à zero</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="tableau">
+            <h1>Résumé de la Demande</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Adresse mail</th>
+                        <th>N° de telephone</th>
+                        <th>Adresse</th>
+                        <th>Ville</th>
+                        <th>Code Postal</th>
+                        <th>Destination</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <div class="footer">
+                <div><a href="../index.html">Accueil</a></div>
+                <div><a href="a-propos.html">À Propos</a></div>
+                <div><a href="destinations.html">Destinations</a></div>
+                <div><a href="demande-devis.html">Devis</a></div>
+            </div>
+          </footer>
+          <script src="../scripts/app_navigation_bar.js"></script>
+          <script src="../scripts/devis.js"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.titre{
+    background-image: url(../../images/Afrique.png);
+} 
+
+.titre h1{
+    color: rgb(226, 226, 226);
+    font-family: 'Poppins', sans-serif; 
+}
+
+.titre p {
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.liste{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 125%;
+}  
+
+.pays{
+    margin-left: 50px;
+}
+
+.land{
+    margin-bottom: 20px;
+}

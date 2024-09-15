@@ -1,0 +1,68 @@
+.formulaire div {
+    line-height: 150%;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.titre {
+    color: rgb(226, 226, 226);
+    background-image: url("../images/devis.png");
+}
+.bandeau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5d4954;
+    color: ivory;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    min-height: 20vh;
+    text-align: center;
+}
+
+.bandeau p {
+    width: 70%;
+}
+
+
+
+
+.formulaire div label {
+    cursor: pointer;
+}
+
+.formulaire div {
+    display: grid;
+    align-items: baseline;
+}
+
+/* .formulaire div input {
+    position: absolute;
+    left: 50%;
+} */
+
+.formulaire {
+    /* width: 25%; */
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.tableau {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border : solid 1px black;
+}

@@ -1,0 +1,22 @@
+.titre{
+    background-image: url('../../images/monmuent.jpg');
+}
+
+.titre h2{
+    color: rgb(64, 117, 185);
+}
+
+.liste{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 125%;
+}  
+
+.pays{
+    margin-left: 50px;
+}
+
+.land{
+    margin-bottom: 20px;
+}

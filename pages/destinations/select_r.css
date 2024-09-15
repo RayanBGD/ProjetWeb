@@ -1,0 +1,23 @@
+.titre{
+    background-image: url(../../images/madrid.jpg);
+}
+
+.titre h2{
+    color: coral;
+}
+
+.liste{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 125%;
+}  
+
+
+
+.land{
+    margin-bottom: 20px;
+}
+
+
+
